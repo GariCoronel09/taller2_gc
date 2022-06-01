@@ -1,0 +1,17 @@
+.miclaseCss{
+	color: red;
+	font-size: 15px;
+}
+
+#miBoton{
+	background-color: #e2e6aa;
+}
+
+h1{
+	color: blue;
+}
+
+body{
+  background-color: lightgrey;
+  font-family: sans-serif;
+}

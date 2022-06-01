@@ -1,0 +1,29 @@
+[
+	{
+		"hora1": "7:30 am - 1:30 pm",
+		"dia1": "Estudiar",
+		"dia2": "Estudiar",
+		"dia3": "Estudiar",
+		"dia4": "Estudiar",
+		"dia5": "Estudiar"
+
+	},
+	{
+		"hora1": "3:00 pm a 7:00 pm ",
+		"dia1": "Trabajar",
+		"dia2": "Trabajar",
+		"dia3": "Trabajar",
+		"dia4": "Estudiar",
+		"dia5": "Trabajar"
+	},
+	{
+		"hora1": "9:00 pm a 11:00pm",
+		"dia1": "Hacer Deberes",
+		"dia2": "Ir a Jugar",
+		"dia3": "Dormir",
+		"dia4": "Estudiar",
+		"dia5": "DORMIR"
+	}
+
+
+]

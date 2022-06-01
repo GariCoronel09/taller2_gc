@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MENÚ PRINCIPAL</title>
+	
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="cuerpo">
+
+	<center>
+		<h1>Reproductor de video</h1>
+	<video width="320" height="240" id="video">
+		<source src="mp4/video.mp4" type="video/mp4"> 
+	</video>
+
+	<div>
+		<button class="videob" onclick="playPause()">&#9658;/ II</button>
+		<button class="videob" onclick="stop()">STOP</button>
+		<!-- <button onclick="skip(-10)">&lt;&lt;</button>
+		<button onclick="skip(10)">&gt;&gt;</button> -->
+	</div>
+		
+	</center>
+
+	<br><br>
+
+	<center>
+	<button id="abrirModal" class="btn">
+		CURRICULUM VITAE
+	</button>
+
+	<input  class="btn" type="button" onclick="leer()" value="LISTA DE ESTUDIANTES">
+	<input  class="btn" type="button" onclick="leerCalculadora()" value="CALCULADORA">
+
+	<input  class="btn" type="button" onclick="leerAjax()" value="MIS HORARIOS JS/AJAX">
+
+	<br>
+	<h2>AUDIO - WONDERWALL</h2>
+
+	<fieldset class="frmAudio">
+		<!--Formulario para la Reproduccion del Audio-->
+
+		<legend>
+			<h3>Autor: OASIS </h3>
+		</legend>
+
+		<!----Insercion de Audio-->
+		<audio controls>
+			<source src="mp3/Oasis.m4r" type="audio/mp3">
+		</audio>
+			<br>
+			<br>
+	</fieldset>
+	
+	</center>
+
+	
+	<dialog id="modal">
+
+		<center>
+			<h1>CURRICULUM VITAE</h1>
+			<!-- <img src="img/tt.png" responsive > -->
+			<img src="img/tt.png" width="100" height="100" />
+		</center>
+		
+		<div id="encabezado">
+			<center>
+			<p id="name">Gari Roberto Coronel Lojan</p>
+			<a href="gari.coronel@unl.edu.ec" target="_blank"><p id="email">gari.coronel@unl.edu.ec</p></a>
+				
+			</center>
+		
+		</div>
+
+		<div class="derecha">
+			<div class="content">
+
+				<!-- <img src="img/tt.png" responsive > -->
+
+				<!-- <h4>Datos Personales</h4>
+				<p>Posicionarme como Ingeniero de sistemas.</p> -->
+				<h4>Datos Personales</h4>
+				<p>Estudiante de la carrera de Computacion 5TO A</p>
+				<ul>
+
+					<li>Vivo en la ciudad de Loja</li>
+					<li>Tengo 24 años</li>
+
+					<li>Estudie en el Colegio Daniel Alvarez Burneo</li>
+					<li>Trabajo en PC INTERNACIONAL</li>
+					
+				</ul>
+				
+				<h4>Habilidades</h4>
+
+				<ul>
+					<li>Mantenimiento de Computadoras</li>
+					<li>Reparacion y Reconstruccion</li>
+					<li>Camaras de Seguridad</li>
+				</ul>
+
+				<h4>Deportes</h4>
+
+				<ul>
+					<li>Futbol</li>
+				
+				</ul>
+
+				<h4>Contactos</h4>
+
+				<ul>
+					<li>gari.coronel@unl.edu.ec</li>
+					<li>Telefono: 0959008841</li>
+				</ul>
+
+			</div>
+
+			<center>
+				<button id="cerrarModal">Cerrar</button>
+			</center>
+			
+
+
+			
+		</div>
+		
+
+		
+		
+	</dialog>
+
+
+</body>
+
+<script src="js/archivos.js"></script>
+</html>
+
+

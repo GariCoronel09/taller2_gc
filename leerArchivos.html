@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JSON / AJAX</title>
+
+	<link rel="stylesheet" href="css/slider.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" >
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="section">
+
+			<button class="btn" id="boton">JSON HORARIO CLASES</button>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Lunes</th>
+						<th>Martes</th>
+						<th>Miercoles</th>
+						<th>Jueves</th>
+						<th>Viernes</th>
+					</tr>
+
+				</thead>
+
+				<tbody id="res">
+					
+				</tbody>
+			</table>
+			<br>
+
+			<button class="btn" id="boton2">JSON Horario Personal</button>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Hora</th>
+						<th>Lunes</th>
+						<th>Martes</th>
+						<th>Miercoles</th>
+						<th>Jueves</th>
+						<th>Viernes</th>
+					</tr>
+
+				</thead>
+
+				<tbody id="res2">
+					
+				</tbody>
+			</table>
+			
+		</div>
+		
+	</div>
+
+	<center>
+		<h2>IMAGENES</h2>
+	</center>
+
+	<div class="container">
+
+		<center>
+			
+		
+		<ul class="slider">
+			<li id="slide1">
+				<img src="img/1102001.jpg"/>
+			</li>
+			<li id="slide2">
+				<img src="img/25571.jpg"/>
+			</li>
+			<li id="slide3">
+				<img src="img/34326.jpg"/>
+			</li>
+		</ul>
+
+		<ul class="menu">
+			<li>
+				<a href="#slide1">1</a>
+			</li>
+			<li>
+				<a href="#slide2">2</a>
+			</li>
+			<li>
+				<a href="#slide3">3</a>
+			</li>
+		</ul>
+
+</center>
+	</div>
+
+
+	<script src="js/leerAjax.js"></script>
+	
+</body>
+</html>

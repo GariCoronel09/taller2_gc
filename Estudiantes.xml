@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="masculino" id="6843">1706664990</cedula>
+        <nombre>GARI</nombre>
+        <apellido>CORONEL</apellido>
+        <celular>0959020466</celular>    
+    </estudiante>
+
+    <estudiante> 
+        <cedula>1102736616</cedula>
+        <nombre>NIDIA</nombre>
+        <apellido>ARELLANO</apellido>
+        <celular>0980085747</celular>    
+    </estudiante>
+
+    <estudiante> 
+        <cedula>1102141320</cedula>
+        <nombre>ANGELICA</nombre>
+        <apellido>BRAVO</apellido>
+        <celular>0981117176</celular>    
+    </estudiante> 
+
+    <estudiante> 
+        <cedula>1104372279</cedula>
+        <nombre>HERNAN</nombre>
+        <apellido>CUENCA</apellido>
+        <celular>0994457974</celular>    
+    </estudiante> 
+
+    <estudiante> 
+        <cedula>1904111164</cedula>
+        <nombre>ANDREA</nombre>
+        <apellido>LOPEZ</apellido>
+        <celular>0981117176</celular>    
+    </estudiante> 
+
+    <estudiante> 
+        <cedula>1904111164</cedula>
+        <nombre>BRYAN</nombre>
+        <apellido>UCHUARI</apellido>
+        <celular>0981117176</celular>    
+    </estudiante> 
+
+    <estudiante>
+        <cedula>1718356412</cedula>
+        <nombre>SANTIAGO</nombre>
+        <apellido>HIDALGO</apellido>
+         <celular>0985698741</celular>    
+    </estudiante>
+     
+</dbp>

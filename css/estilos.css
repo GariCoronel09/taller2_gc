@@ -1,0 +1,58 @@
+ body{
+ 	background-color: lightblue;
+ }
+
+ .cuerpo{
+ 	background-color: coral;
+ }
+
+ .confondo {
+   background-color: #def;
+   padding:6px 12px;
+ }
+ .one{
+ 	font-family: serif;
+
+ }
+
+ #modal::backdrop{
+
+ 	background-color: rgba(0,0,0,.55);
+ }
+
+ #modal{
+ 	max-width: 50ch;
+ }
+
+.derecha {
+    float: right;
+    background-color: rgb(240, 240, 240);
+    width: 99%;
+    height: 428px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border: 2px groove white;
+}
+
+.btn{
+
+	/*margin:16px 6px 2px 0;*/
+	color:#ffffff;
+	font-weight:bold;
+	display:inline-block;
+	padding:6px 12px;
+	font-size:18px;
+	text-align:center;
+	background-color:#55acee;
+}
+
+.videob{
+	color:#ffffff;
+	font-weight:bold;
+	display:inline-block;
+	padding:6px 12px;
+	font-size:18px;
+	text-align:center;
+	background-color: darkseagreen;
+}
+
